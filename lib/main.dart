@@ -4,8 +4,8 @@ import 'package:quiz_app/start_screen.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      body:Text("Hello"),
+      body:StartScreen(),
+
     ),
   ));
 }
-
