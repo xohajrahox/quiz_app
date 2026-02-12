@@ -12,13 +12,23 @@ const questions = [
     ]
   ),
   QuizQuestion(
-    'Which of these are a horror movie?'
+    'Which of these are not a horror movie?'
     ,
     [
       'Conjuring',
       'Insidious',
       'Mean Girls',
       'Annabelle', 
+    ]
+  ),
+  QuizQuestion(
+    'Which of these sports do you have to dribble a ball?'
+    ,
+    [
+      'Basketball',
+      'Tennis',
+      'Soccer',
+      'Baseball', 
     ]
   ),
 ];
