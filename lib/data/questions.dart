@@ -31,4 +31,34 @@ const questions = [
       'Baseball', 
     ]
   ),
+  QuizQuestion(
+    'Which of these sports do you have to dribble a ball?'
+    ,
+    [
+      'Basketball',//Correct Answer
+      'Tennis',
+      'Soccer',
+      'Baseball', 
+    ]
+  ),
+  QuizQuestion(
+    'Which of these sports do you have to dribble a ball?'
+    ,
+    [
+      'Basketball',//Correct Answer
+      'Tennis',
+      'Soccer',
+      'Baseball', 
+    ]
+  ),
+  QuizQuestion(
+    'Which of these sports do you have to dribble a ball?'
+    ,
+    [
+      'Basketball',//Correct Answer
+      'Tennis',
+      'Soccer',
+      'Baseball', 
+    ]
+  ),
 ];
