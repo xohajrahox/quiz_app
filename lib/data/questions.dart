@@ -5,7 +5,7 @@ const questions = [
     'How did Edward Elric lose his arm in FMA?'
     ,
     [
-      'Putting his brothers sould in a suit of armor',
+      'Putting his brothers sould in a suit of armor',//Correct Answer
       'In a Duel',
       'In a freak Dabbing Accident',
       'He never had any arms', 
@@ -17,7 +17,7 @@ const questions = [
     [
       'Conjuring',
       'Insidious',
-      'Mean Girls',
+      'Mean Girls',//Correct Answer
       'Annabelle', 
     ]
   ),
@@ -25,7 +25,7 @@ const questions = [
     'Which of these sports do you have to dribble a ball?'
     ,
     [
-      'Basketball',
+      'Basketball',//Correct Answer
       'Tennis',
       'Soccer',
       'Baseball', 
