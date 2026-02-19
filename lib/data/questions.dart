@@ -32,33 +32,33 @@ const questions = [
     ]
   ),
   QuizQuestion(
-    'Which of these sports do you have to dribble a ball?'
+    'Which of these is a creative class?'
     ,
     [
-      'Basketball',//Correct Answer
-      'Tennis',
-      'Soccer',
-      'Baseball', 
+      'Math',
+      'Science',
+      'Gym',
+      'Art',//Correct Answer 
     ]
   ),
   QuizQuestion(
-    'Which of these sports do you have to dribble a ball?'
+    'What day do we have class in person with professor?'
     ,
     [
-      'Basketball',//Correct Answer
-      'Tennis',
-      'Soccer',
-      'Baseball', 
+      'Tuesday',
+      'Thursday',//Correct Answer
+      'Friday',
+      'Wednesday', 
     ]
   ),
   QuizQuestion(
-    'Which of these sports do you have to dribble a ball?'
+    'How many months are in a year?'
     ,
     [
-      'Basketball',//Correct Answer
-      'Tennis',
-      'Soccer',
-      'Baseball', 
+      '16',
+      '6',
+      '4',
+      '12',//Correct Answer 
     ]
   ),
 ];
