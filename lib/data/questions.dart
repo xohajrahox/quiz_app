@@ -19,7 +19,7 @@ const questions = [
       'Insidious',
       'Mean Girls',//Correct Answer
       'Annabelle', 
-    ]
+    ],
   ),
   QuizQuestion(
     'Which of these sports do you have to dribble a ball?'
@@ -29,7 +29,7 @@ const questions = [
       'Tennis',
       'Soccer',
       'Baseball', 
-    ]
+    ],
   ),
   QuizQuestion(
     'Which of these is a creative class?'
@@ -39,7 +39,7 @@ const questions = [
       'Science',
       'Gym',
       'Art',//Correct Answer 
-    ]
+    ],
   ),
   QuizQuestion(
     'What day do we have class in person with professor?'
@@ -49,7 +49,7 @@ const questions = [
       'Thursday',//Correct Answer
       'Friday',
       'Wednesday', 
-    ]
+    ],
   ),
   QuizQuestion(
     'How many months are in a year?'
