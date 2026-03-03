@@ -20,8 +20,9 @@ class _QuizState extends State<Quiz> {
     if(selectedAnswers.length == questions.length){
       //hey were done bro
       setState(() {
-        selectedAnswers = [];
-        activeScreen = StartScreen(switchScreen);
+        //This is going to change to deal with the answer screen
+        // selectedAnswers = [];
+        activeScreen = ResultsScreen(chosenAnswers: selectedAnswers,);
       });
     }
   }
