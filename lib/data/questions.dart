@@ -2,13 +2,13 @@ import 'package:quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'How did Edward Elric lose his arm in FMA?'
+    'Which of the following are not MMA fighters?'
     ,
     [
-      'Putting his brothers sould in a suit of armor',//Correct Answer
-      'In a Duel',
-      'In a freak Dabbing Accident',
-      'He never had any arms', 
+      'Islam Makhachev',//Correct Answer
+      'Dwayne Johnson',
+      'Paddy Pimblett',
+      'Khabib Nurmagomedov', 
     ]
   ),
   QuizQuestion(
