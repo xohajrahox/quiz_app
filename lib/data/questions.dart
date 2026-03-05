@@ -5,8 +5,8 @@ const questions = [
     'Which of the following are not MMA fighters?'
     ,
     [
-      'Islam Makhachev',//Correct Answer
-      'Dwayne Johnson',
+      'Islam Makhachev',
+      'Dwayne Johnson',//Correct Answer
       'Paddy Pimblett',
       'Khabib Nurmagomedov', 
     ]
