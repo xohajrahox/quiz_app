@@ -46,11 +46,13 @@ class _QuestionScreenState extends State<QuestionsScreen>{
             const SizedBox(height:30),
             ...currentQuestion.getShuffledAnswers().map((item){
               return AnswerButton(answerText: item,
-              onTap: (){
+              onTap: () {
                 answerQuestion(item);
-              });
+              }
+              );
             }),
-          ],),
+          ],
+        ),
       ),
     );
   }
