@@ -5,8 +5,8 @@ const questions = [
     'Which of the following are not MMA fighters?'
     ,
     [
-      'Islam Makhachev',
       'Dwayne Johnson',//Correct Answer
+      'Islam Makhachev',
       'Paddy Pimblett',
       'Khabib Nurmagomedov', 
     ]
@@ -15,9 +15,9 @@ const questions = [
     'Which of these are not a horror movie?'
     ,
     [
+      'Mean Girls',//Correct Answer
       'Conjuring',
       'Insidious',
-      'Mean Girls',//Correct Answer
       'Annabelle', 
     ],
   ),
@@ -35,18 +35,18 @@ const questions = [
     'Which of these is a creative class?'
     ,
     [
+      'Art',//Correct Answer 
       'Math',
       'Science',
       'Gym',
-      'Art',//Correct Answer 
     ],
   ),
   QuizQuestion(
     'What day do we have class in person with professor?'
     ,
     [
-      'Tuesday',
       'Thursday',//Correct Answer
+      'Tuesday',
       'Friday',
       'Wednesday', 
     ],
@@ -55,10 +55,10 @@ const questions = [
     'How many months are in a year?'
     ,
     [
+      '12',//Correct Answer
       '16',
       '6',
-      '4',
-      '12',//Correct Answer 
+      '4', 
     ]
   ),
 ];
