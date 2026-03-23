@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quiz_app/data/questions.dart';
 import 'package:quiz_app/question_summary.dart';
 
 class ResultsScreen extends StatelessWidget{
-  const ResultsScreen({super.key, required this.chosenAnswers});
+  const ResultsScreen({super.key, required this.chosenAnswers, required this.onRestart,
+  });
 
   final List<String> chosenAnswers;
+  final void Function() onRestart;
 
   List<Map<String, Object>> getSummaryData(){
     List<Map<String, Object>> summary = [];
@@ -20,11 +23,10 @@ class ResultsScreen extends StatelessWidget{
     return summary;
   }
 
-
   @override
-  Widget build(context)
-  {
+  Widget build(BuildContext context){
     final summaryData = getSummaryData();
+
     final numTotalQuestions = getSummaryData().length;
     final numTotalCorrect = summaryData.where(
       (data) {
@@ -38,14 +40,32 @@ class ResultsScreen extends StatelessWidget{
         child:  Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children:  [
-            Text('You answered $numTotalCorrect out of $numTotalQuestions questions Correctly'),
-            const SizedBox(height:30,),
-            QuestionSummary(summaryData: summaryData),
-            const SizedBox(height:30,),
+            Text('You answered $numTotalCorrect out of $numTotalQuestions questions correctly',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.lato(
+              color: Colors.white,
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              )
+            ),
+            const SizedBox(height:30),
+            SizedBox(
+              height: 300,
+              child: SingleChildScrollView(
+                child: QuestionSummary(summaryData: summaryData),
+              ),
+            ),
+            const SizedBox(height:30),
             TextButton(
-              onPressed: (){},
-              child: const Text('Restart Quiz'),
-            )
+              onPressed: onRestart,
+              child: Text('Restart Quiz',
+                style: GoogleFonts.lato(
+                  color: Colors.white,
+                  fontSize:18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),
